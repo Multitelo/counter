@@ -167,7 +167,9 @@ function App() {
             {isRunning ? "Pause" : "Start"}
           </button>
           <button
-            onClick={() => (setMin(0), setSec(0), setIsRunning(false))}
+            onClick={() => (
+              setHr(0), setMin(0), setSec(0), setIsRunning(false)
+            )}
             className="reset"
           >
             Reset
